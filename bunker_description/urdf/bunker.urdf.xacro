@@ -6,11 +6,6 @@
         <mesh filename="package://bunker_description/meshes/Bunker_Tracks.dae"/>
       </geometry>
     </visual>
-    <collision>
-      <geometry>
-        <mesh filename="package://bunker_description/meshes/Bunker_Tracks.dae"/>
-      </geometry>
-    </collision>
   </link>
 
   <joint name="base_link_joint" type="fixed">
@@ -25,11 +20,6 @@
         <mesh filename="package://bunker_description/meshes/Bunker_Body.dae"/>
       </geometry>
     </visual>
-    <collision>
-      <geometry>
-        <mesh filename="package://bunker_description/meshes/Bunker_Body.dae"/>
-      </geometry>
-    </collision>
   </link>
 
   <joint name="mid_mount_joint" type="fixed">
@@ -46,7 +36,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://bunker_description/meshes/Bunker_Cover.dae"/>
+        <mesh filename="package://bunker_description/meshes/Bunker_Collision.stl"/>
       </geometry>
     </collision>
   </link>

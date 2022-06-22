@@ -22,7 +22,7 @@
     </visual>
     <collision>
       <geometry>
-        <mesh filename="package://bunker_description/meshes/Bunker_Collision.dae"/>
+        <mesh filename="package://bunker_description/meshes/BunkerPro_Collision.stl"/>
       </geometry>
     </collision>
   </link>
